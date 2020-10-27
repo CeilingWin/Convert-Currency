@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="From"
+        android:textSize="30sp"
+        android:paddingLeft="20dp"/>
+    <Spinner
+        android:id="@+id/from"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:text="To"
+         android:textSize="30sp"
+         android:paddingLeft="20dp"/>
+    <Spinner
+        android:id="@+id/to"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Amount"
+        android:textSize="30sp"
+        android:paddingLeft="20dp"/>
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="30sp"
+        android:text="0"
+        android:background="#DCDCDC"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Result"
+        android:textSize="30sp"
+        android:paddingLeft="20dp"/>
+    <EditText
+        android:id="@+id/output"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="30sp"
+        android:text="0"
+        android:background="#DCDCDC"/>
+
+</LinearLayout>
